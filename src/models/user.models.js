@@ -76,7 +76,7 @@ return jwt.sign({
         
 
     },
-     process.env.ACCeSS_TOKEN_SECRET, 
+     process.env.ACCESS_TOKEN_SECRET, 
     {
         expiresIn: process.env.ACCESS_TOKEN_EXPIRY,
 
